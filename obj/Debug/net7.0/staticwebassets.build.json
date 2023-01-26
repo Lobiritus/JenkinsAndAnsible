@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "n+NWPyhjadrb35nXBPr29TSsBwrOQ5OpL8HCtmZ44ZM=",
+  "Source": "JenkinsAndAnsible",
+  "BasePath": "_content/JenkinsAndAnsible",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
