@@ -1,23 +1,13 @@
-﻿properties([disableConcurrentBuilds()])
-
-
-pipeline {
+﻿pipeline {
     agent any
 
     stages {
-        stage('Get Source') {
-            steps{
-                git ('твой репозиторий')
-                script{
-                    if (!fileExists("Dockerfile")) {
-                        error('Dockerfile missing.')
-                    }
-                }
-            }
-        }
-        stage('Start build') {
-            steps{
-                sh "docker build"
+        echo "======== start building image ========="
+        stage('Start build') 
+        {
+            steps
+            {
+                sh "docker build ."
             }
         }
     }
