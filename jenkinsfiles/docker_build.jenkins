@@ -1,0 +1,24 @@
+﻿properties([disableConcurrentBuilds()])
+
+
+pipeline {
+    agent any
+
+    stages {
+        stage('Get Source') {
+            steps{
+                git ('твой репозиторий')
+                script{
+                    if (!fileExists("Dockerfile")) {
+                        error('Dockerfile missing.')
+                    }
+                }
+            }
+        }
+        stage('Start build') {
+            steps{
+                sh "docker build"
+            }
+        }
+    }
+}

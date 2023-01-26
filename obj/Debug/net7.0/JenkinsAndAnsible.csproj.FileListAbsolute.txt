@@ -24,3 +24,4 @@ C:\Users\Lobiritus\source\repos\JenkinsAndAnsible\JenkinsAndAnsible\obj\Debug\ne
 C:\Users\Lobiritus\source\repos\JenkinsAndAnsible\JenkinsAndAnsible\obj\Debug\net7.0\JenkinsAndAnsible.pdb
 C:\Users\Lobiritus\source\repos\JenkinsAndAnsible\JenkinsAndAnsible\obj\Debug\net7.0\JenkinsAndAnsible.genruntimeconfig.cache
 C:\Users\Lobiritus\source\repos\JenkinsAndAnsible\JenkinsAndAnsible\obj\Debug\net7.0\ref\JenkinsAndAnsible.dll
+C:\Users\Lobiritus\source\repos\JenkinsAndAnsible\JenkinsAndAnsible\bin\Debug\net7.0\html\index.html
