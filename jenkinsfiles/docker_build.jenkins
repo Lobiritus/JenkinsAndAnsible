@@ -1,15 +1,16 @@
 ﻿pipeline 
 {
     agent any
-
     stages 
     {
         stage('Start build') 
         {
             steps
             {
-                sh "docker build . aspnet"
+                sh "docker build -t aspnet ."
             }
         }
+        
+        'Test'
     }
 }
