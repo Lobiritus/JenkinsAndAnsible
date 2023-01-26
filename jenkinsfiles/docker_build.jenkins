@@ -1,8 +1,9 @@
-﻿pipeline {
+﻿pipeline 
+{
     agent any
 
-    stages {
-        echo "======== start building image ========="
+    stages 
+    {
         stage('Start build') 
         {
             steps

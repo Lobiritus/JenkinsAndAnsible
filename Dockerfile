@@ -5,7 +5,8 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY ["JenkinsAndAnsible/JenkinsAndAnsible.csproj", "JenkinsAndAnsible/"]
+#JenkinsAndAnsible/JenkinsAndAnsible.csproj
+COPY [".", "JenkinsAndAnsible/"]
 RUN dotnet restore "JenkinsAndAnsible/JenkinsAndAnsible.csproj"
 COPY . .
 WORKDIR "/src/JenkinsAndAnsible"
